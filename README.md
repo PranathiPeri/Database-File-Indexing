@@ -12,20 +12,20 @@ Implemented B+ Tree structure for a file with data records containing a key and 
 
 4. Set the directory of the command prompt to the directory where the BPtree folder is present.
 
-4. To create index file  type in the following command.
+5. To create index file  type in the following command.
 
 java -classpath "BPTree" dbassignment.Main -create ":\Users\This PC\Desktop\BPTree\dbassignment\CS6360Asg5TestData.txt" CS6360Asg5.indx 15
 
-5. To find a record type in the following command.
+6. To find a record type in the following command.
 
 java -classpath "BPTree" dbassignment.Main -find CS6360Asg5.indx 93288157045562A
 
 
-6. To insert a record into existing index file type in the following command
+7. To insert a record into existing index file type in the following command
 
 java -classpath "BPTree" dbassignment.Main -insert CS6360Asg5.indx  "12222222222222C test data I added"
 
-7. To display a set of recording starting from certain record type in the following command.
+8. To display a set of recording starting from certain record type in the following command.
 
 java -classpath "BPTree" dbassignment.Main -list CS6360Asg5.indx 38417813544394A 12
 
